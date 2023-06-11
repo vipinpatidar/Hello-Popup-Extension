@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Hello Extension",
+  "version": "1.0",
+  "description": "Displays a pop-up box with the message 'Hello'.",
+  "permissions": ["tabs"],
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
